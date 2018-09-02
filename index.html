@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 
 </head>
 
@@ -27,14 +28,16 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7"><img class="header-img" src="img/main-img.png" alt="Main"></div>
+				<div class="col-lg-7">
+					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Main">
+				</div>
 				<!-- col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Александр Усанов</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br>
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s" >Александр Усанов</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s" >Верстка на HTML/CSS <br>
 					Разработка сайтов под ключ</p>
-					<div class="header-button-block">
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 						<a class="header-button" href="https://vk.me/no1man">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -47,7 +50,7 @@
 	</header>
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeInUpInBig">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -80,11 +83,19 @@
 					</div>
 					<div class="col-md-4">
 						<div class="social-block">
-							<p></p>
-							<a href=""><img src="img/socials/facebook.png" alt="Facebook"></a>
-							<a href="https://vk.me/no1man"><img src="img/socials/vk.png" alt="VK"></a>
-							<a href=""><img src="img/socials/twitter.png" alt="Telegram"></a>
-							<a href=""><img src="img/socials/youtube.png" alt="YouTube"></a>
+							<p>Подпишитесь: </p>
+							<a href="">
+								<img class="wow bounceInDown" src="img/socials/facebook.png" alt="Facebook" data-wow-delay="0.1s">
+							</a>
+							<a href="https://vk.me/no1man">
+								<img class="wow bounceInDown" src="img/socials/vk.png" alt="VK" data-wow-delay="0.2s">
+							</a>
+							<a href="">
+								<img class="wow bounceInDown" src="img/socials/twitter.png" alt="Telegram" data-wow-delay="0.3s">
+							</a>
+							<a href="">
+								<img class="wow bounceInDown" src="img/socials/youtube.png" alt="YouTube" data-wow-delay="0.4s">
+							</a>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -98,7 +109,10 @@
 			</div>
 			<!-- container -->
 		</footer>
-
+		<script src="js/wow.min.js"> </script>
+		<script>
+			new WOW().init();
+		</script>
 	</body>
 	</html>
 

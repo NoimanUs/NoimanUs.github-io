@@ -47,6 +47,17 @@ header {
 	color: #072b6f;
 }
 
+.header-button:hover {
+	box-shadow: none;
+	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	
+}
+
 header small {
 	margin-top: 9px;
 	display: block;
@@ -170,6 +181,16 @@ footer {
 	padding: 12px 40px;
 }
 
+.footer-button:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #3a7dfd;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
 
 
 
